@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
-  res.render("home", { title: "藤原 千花 Gaming" });
+  res.render("index", { title: "home" });
 });
 
 /* GET about page */
