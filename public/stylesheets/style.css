@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+  --pink: #ECD2D5;
+  --gray: #302432;
+}
+
+body {
+  margin: 0;
+  padding: 2em;
+
+  font: 1.2em 'Quicksand', sans-serif;
+  color: var(--gray);
+}
+
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.main {
+  transition: .5s;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section {
+  border: 2px dashed  #eeeeee;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.banner-img {
+  width: 100%;
+  padding-bottom: 25%;
+
+  background-image: url("/images/chikatakami/chika2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
