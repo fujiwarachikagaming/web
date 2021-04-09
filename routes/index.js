@@ -16,4 +16,9 @@ router.get("/join/", function(req, res, next) {
   res.render("join", { title: "Join" });
 });
 
+/* GET contact page */
+router.get("/contact/", function(req, res, next) {
+  res.render("contact", { title: "Contact" });
+});
+
 module.exports = router;
